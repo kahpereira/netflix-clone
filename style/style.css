@@ -1,0 +1,37 @@
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 6.5rem;
+    margin: 5px;
+}
+
+header nav a {
+    color: #e2e2e2;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #aaa;
+}
+
